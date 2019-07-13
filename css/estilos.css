@@ -2,11 +2,25 @@
 @import url(menu.css);
 @import url(banner.css);
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.imgcenter{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border:none;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
+    padding:250px 10px 10px 500px;
     
 }
+
 header{
     width: 100%;
     height: 50px;
@@ -16,6 +30,10 @@ header{
     top: 0;
     left: 0;
     z-index: 100;
+}
+
+.titulo{
+    font-size: 40px;
 }
 
 .formulas{
@@ -46,12 +64,6 @@ p {
 .contenedor {
     width: 98%;
     margin:  auto;
-    
-}
-
-h1 {
-   float: left;
-
 }
 
 
@@ -64,3 +76,113 @@ section{
     width: 100%;
     margin-bottom: 25px;
 }
+
+.wrap{
+	width: 1100px;
+	margin: 50px auto;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+    justify-content: center;
+}
+
+.tarjeta-wrap{
+	margin: 10px;
+	-webkit-perspective: 800;
+	perspective: 800;
+}
+
+.tarjeta{
+	width: 300px;
+	height: 300px;
+	background: #F29720;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-transition: .7s ease;
+	transition: .7s ease;
+	-webkit-box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+	box-shadow: 0px 10px 15px -5px rgba(0,0,0,0.65);
+}
+
+.adelante, .atras{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+}
+
+.adelante{
+	width: 100%;
+}
+
+.atras{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	padding: 15px;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-align: center;
+	color: #fff;
+	font-family: "open sans";
+}
+
+.tarjeta-wrap:hover .tarjeta{
+	-webkit-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+}
+
+.card0{
+    background-image: url(https://www.biografiasyvidas.com/biografia/b/fotos/boyle.jpg);
+    background-size: cover;
+}
+
+.card1{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/9/98/Jacques_Alexandre_C%C3%A9sar_Charles.jpg);
+	background-size: cover;
+}
+
+.card2{
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/2f/Gaylussac.jpg);
+	background-size: cover;
+}
+
+
+.card3{
+	background-image: url(http://4.bp.blogspot.com/-bFBOdW7hjiM/Uz5NLM208ZI/AAAAAAAAAJY/HO_z4oenn5Q/s1600/john+dalton.jpg);
+	background-size: cover;
+}
+
+.card4{
+	background-image: url(http://laplace.us.es/wiki/images/8/82/Ley_de_Boyle.gif);
+	background-size: cover;
+}
+
+.card5{
+	background-image: url(http://quimica.cubaeduca.cu/media/quimica.cubaeduca.cu/medias/interactividades/volumenmolar/res/QUI-I-020101-27.jpg);
+	background-size: cover;
+}
+
+.card6{
+	background-image: url(https://www.biografiasyvidas.com/biografia/g/fotos/graham_thomas.jpg);
+	background-size: cover;
+}
+
+

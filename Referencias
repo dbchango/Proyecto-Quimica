@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+        <link rel="stylesheet" href="css/estilos.css">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+        <link rel="stylesheet" href="css/fontello.css">
+        <link rel="stylesheet" href="css/estilos.css">
+        <link rel="stylesheet" href="css/animate.css">
+    
+    <title>Referencias</title>
+</head>
+<body>
+        
+        <main>
+        <section id="banner">
+                    <img src = "img/Bibliografia.jpg">
+                    
+                    <div class="contenedor">
+                            
+                        <h1 class = "titulo animated swing infinite icon-book-open" style="text-align:center">BIBLIOGRAFÍA</h1> 
+                        
+                    </div>
+        </section>
+        <section class="animated bounceInRight slow">
+                <br><h2>Referencias</h2><br>
+                <hr>
+                <br>
+                    <div class="csl-bib-body" style="line-height: 2;">
+                        <ul style="list-style-type:disc;" style="text-align: justify">
+                            <li><div class="csl-entry">Anlinés Sánchez Otero. (s.&nbsp;f.). <i>Ley de los gases ideales</i>. Recuperado de <a href="http://www.a-sanchez-quimica12.weebly.com/uploads/2/2/7/8/22780096/ley_de_los_gases_ideales.pdf">http://www.a-sanchez-quimica12.weebly.com/uploads/2/2/7/8/22780096/ley_de_los_gases_ideales.pdf</a></div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.title=Ley%20de%20los%20gases%20ideales&amp;rft.identifier=http%3A%2F%2Fwww.a-sanchez-quimica12.weebly.com%2Fuploads%2F2%2F2%2F7%2F8%2F22780096%2Fley_de_los_gases_ideales.pdf&amp;rft.au=undefined"></span></li>
+                            <li><div class="csl-entry">Brown, Theodore L., LeMay H., Eugene Jr., Bursten, &amp; Bruce E. (s.&nbsp;f.). <i>Química. La Ciencia Central</i> (9° Edición). Pearson Prentice-Hall.</div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Qu%C3%ADmica.%20La%20Ciencia%20Central&amp;rft.publisher=Pearson%20Prentice-Hall&amp;rft.edition=9%C2%B0%20Edici%C3%B3n&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined"></span></li>
+                            <li><div class="csl-entry">Carlos Vicente Sánchez (último). (2018). <i>Ley de los gases ideales</i>. Recuperado de <a href="https://machete2000.files.wordpress.com/2018/10/08-gases-ideales.pdf">https://machete2000.files.wordpress.com/2018/10/08-gases-ideales.pdf</a></div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.title=Ley%20de%20los%20gases%20ideales&amp;rft.publisher=Instituto%20Superior%20Paramedico&amp;rft.identifier=https%3A%2F%2Fmachete2000.files.wordpress.com%2F2018%2F10%2F08-gases-ideales.pdf&amp;rft.au=undefined&amp;rft.date=2018&amp;rft.language=Espa%C3%B1ol"></span></li>
+                            <li><div class="csl-entry">Chang, &amp; Raymond. (2002). <i>Quimica</i> (7° Edición). McGraw-Hill.</div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Quimica&amp;rft.publisher=McGraw-Hill&amp;rft.edition=7%C2%B0%20Edici%C3%B3n&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.date=2002"></span></li>
+                            <li><div class="csl-entry">Kotz, John C., &amp; Treichel, Paul M. (2003). <i>Quimica y Reactividad Quimica</i> (5° Edición). Thomson.</div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Quimica%20y%20Reactividad%20Quimica&amp;rft.publisher=Thomson&amp;rft.edition=5%C2%B0%20Edici%C3%B3n&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.date=2003"></span></li>
+                            <li><div class="csl-entry">Rodriguez, M. (s.&nbsp;f.). <i>Leyes de los gases</i>. Recuperado de <a href="https://www.academia.edu/31509009/Leyes_de_los_gases">https://www.academia.edu/31509009/Leyes_de_los_gases</a></div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.atitle=Leyes%20de%20los%20gases&amp;rft.aufirst=Manuel&amp;rft.aulast=Rodriguez&amp;rft.au=Manuel%20Rodriguez&amp;rft.language=en"></span></li>
+                            <li><div class="csl-entry">Anlinés Sánchez Otero. (s.&nbsp;f.). <i>Ley de los gases ideales</i>. Recuperado de <a href="http://www.a-sanchez-quimica12.weebly.com/uploads/2/2/7/8/22780096/ley_de_los_gases_ideales.pdf">http://www.a-sanchez-quimica12.weebly.com/uploads/2/2/7/8/22780096/ley_de_los_gases_ideales.pdf</a></div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.title=Ley%20de%20los%20gases%20ideales&amp;rft.identifier=http%3A%2F%2Fwww.a-sanchez-quimica12.weebly.com%2Fuploads%2F2%2F2%2F7%2F8%2F22780096%2Fley_de_los_gases_ideales.pdf&amp;rft.au=undefined"></span></li>
+                            <l1><div class="csl-entry">Sofia Arellanos Cardenas, Socrro Lopez Cortez, Lucia Ramirez Torres, &amp; Juan Carlos Mares Guttierrez. (s.&nbsp;f.). Recuperado de <a href="http://apuntescientificos.org/resueltos-gases-ibq.html">http://apuntescientificos.org/resueltos-gases-ibq.html</a></div>
+                            <span class="Z3988" title="url_ver=Z39.88-2004&amp;ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fzotero.org%3A2&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Adc&amp;rft.type=document&amp;rft.identifier=http%3A%2F%2Fapuntescientificos.org%2Fresueltos-gases-ibq.html&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined&amp;rft.au=undefined"></span></l1>
+        
+                        </ul>
+                      </div>
+                <br>
+                <hr>
+        </section>
+        </main>
+    
+</body>
+</html>

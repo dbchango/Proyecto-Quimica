@@ -6,6 +6,8 @@
     margin: 0;
     padding: 0;
 	box-sizing: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
 	
 }
 
@@ -22,8 +24,6 @@ body{
 	background: lightgoldenrodyellow;
     
 }
-
-
 
 .titulo{
 	font-size: 30px;
@@ -61,8 +61,6 @@ p {
     margin:  auto;
 }
 
-
-
 header .contenedor {
     display: table;
 }
@@ -72,7 +70,7 @@ section{
     margin-bottom: 25px;
 }
 
-.wrap{
+.wrap2{
 	width: auto;
 	margin: 50px auto;
 	display: -webkit-box;
@@ -94,7 +92,7 @@ section{
 .tarjeta{
 	width: 300px;
 	height: 300px;
-	background: #F29720;
+	background: url(https://img.freepik.com/foto-gratis/pared-negra-fondo-pizarra-sala-exposicion-producto-presentacion_28629-835.jpg?size=626&ext=jpg);
 	position: relative;
 	-webkit-transform-style: preserve-3d;
 	transform-style: preserve-3d;
@@ -121,7 +119,7 @@ section{
 .atras{
 	-webkit-transform: rotateY(180deg);
 	transform: rotateY(180deg);
-	padding: 0px;
+	padding: 5px;
 	display: -webkit-box;
 	display: -webkit-flex;
 	display: -ms-flexbox;
@@ -135,8 +133,9 @@ section{
 	-ms-flex-align: center;
 	align-items: center;
 	text-align: center;
-	color: rgb(24, 23, 23);
+	color: lightgray;
 	font-family: "open sans";
+	
 }
 
 .tarjeta-wrap:hover .tarjeta{
@@ -159,7 +158,6 @@ section{
 	background-size: cover;
 }
 
-
 .card3{
 	background-image: url(http://4.bp.blogspot.com/-bFBOdW7hjiM/Uz5NLM208ZI/AAAAAAAAAJY/HO_z4oenn5Q/s1600/john+dalton.jpg);
 	background-size: cover;
@@ -180,4 +178,82 @@ section{
 	background-size: cover;
 }
 
+.csl-bib-body{
+    font-size: 12pt;
+    font-family: 'Times New Roman', Times, serif;
+}
 
+.wrap{
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	margin: auto ;
+}
+
+ul.tabs{
+	width: 100%;
+	background: #363636;
+	list-style: none;
+	display: flex;	
+}
+
+ul.tabs li{
+	width: auto;
+}
+
+ul.tabs li a{
+	color: #fff;
+
+	text-decoration: none;
+	font-size: 8pt;
+	text-align: center;
+	display: block;
+	padding: 10px 10px;
+}
+
+.active{
+	background: #0984CC;
+	height: 100%;
+	width: 100%;
+}
+
+ul.tabs li a .tab-text{
+	margin-left: 8px;
+}
+
+.secciones{
+	width: 100%;
+	height: 800px;
+	background: url(https://st.depositphotos.com/3004689/4083/i/950/depositphotos_40838725-stock-photo-old-chemistry-laboratory-background-in.jpg);
+	
+}
+
+.secciones article{
+	padding: 30px;
+}
+
+.secciones article p{
+	text-align: justify;
+}
+
+@media screen and (max-width: 700px){
+	ul.tabs li{
+		width: none;
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+}
+
+@media screen and (max-width: 450px){
+	ul.tabs li a{
+		padding: 15px 0px;
+	}
+
+	ul.tabs li a .tab-text{
+		display: none;
+	}
+
+	.secciones article{
+		padding: 20px;
+	}
+}

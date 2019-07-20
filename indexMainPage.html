@@ -1,50 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Quimica General</title>  
-    <link rel="stylesheet" href="css/estilos.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
-    <link rel="stylesheet" href="css/fontello.css">
+	
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Leyes de los Gases</title>
+	<link rel="stylesheet" href="estilos.css">
+	<link rel="stylesheet" href="font-awesome.css">
+	<link rel="stylesheet" href="css/fontello.css">
     <link rel="stylesheet" href="css/estilos.css">
     <link rel="stylesheet" href="css/animate.css">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="main.js"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
 </head>
-
 <body>
-    
-        
-        <main>
-        <section id="banner">
-                <img src = "img/Globos_Gases_Ideales.jpg">
-                        <div class="contenedor">
-                                <h1 class = "titulo animated swing infinite icon-bank" style="text-align:center" > GASES IDEALES</h1>
-                            
-                        </div>           
-            
-        </section>
-        <section id="contenido">
-            <h2>Introducción:</h2>
-            <p style="text-align: justify">
-                Un gas ideal es un gas que se estudia de forma teorica, esto quiere decir que su composición no es alterada por la fuerzas de atracción 
-                que en realidad existen entre las moléculas del gas, es decir que la fuerza intramolecuar es nula, por lo que para el estudio de su 
-                comportamiento empleamos la siguiente fórmula: 
-            </p>  
-            <p style="text-align:center"> 
-            PV=nRT
-            </p>
-            <p style="text-align: justify">
-                Se han deducido tres leyes principales que cumplean la mayoria de los gases en la naturaleza, a continuación las detallaremas
-            </p>            
-            <br><h2>Ley De Boyle</h2>
-            <p style="text-align: justify">
-                Boyle insipirado por el trabajo del cientificio italiano Evangelista Torricelli realizo estudios estudios sobre el cambio de volumen de muestras gaseosas causados por variaciones de presión. De dnde pudo concluir que ya que los gases son fluidos compresibles su volumen y su presión están estrechamente relacionados.<br>Enunciado<br>"A temperatura constante, el volumen de una mezcla gaseosa es inversamente proporcional a la presión del gas", es decir:</p>
-                <div class="imgcenter">
-                        <div class="wrap">
+	<div class="wrap animated bounceInRight slow">
+		<ul class="tabs">
+			<li><a href="#tab1"><span class="icon-library"></span><span class="tab-text">Introduccion</span></a></li>
+			<li><a href="#tab2"><span class="icon-library"></span><span class="tab-text">Ley de Boyle</span></a></li>
+			<li><a href="#tab3"><span class="icon-library"></span><span class="tab-text">Ley de Charles</span></a></li>
+			<li><a href="#tab4"><span class="icon-library"></span><span class="tab-text">Ley de Gay Lussac</span></a></li>
+			<li><a href="#tab5"><span class="icon-library"></span><span class="tab-text">Ley de Dalton</span></a></li>
+			<li><a href="#tab6"><span class="icon-library"></span><span class="tab-text">Ley de los gases ideales</span></a></li>
+			<li><a href="#tab7"><span class="icon-library"></span><span class="tab-text">Ley de Avogadro</span></a></li>
+			<li><a href="#tab8"><span class="icon-library"></span><span class="tab-text">Ley General de los Gases</span></a></li>
+			<li><a href="#tab9"><span class="icon-library"></span><span class="tab-text">Ley de Graham</span></a></li>
+		</ul>
+
+		<div class="secciones">
+			<article id="tab1" class="animated bounceInRight slow">
+				<h1>Introduccion</h1>
+				<p style="text-align: justify">
+					Un gas ideal es un gas que se estudia de forma teorica, esto quiere decir que su composición no es alterada por la fuerzas de atracción 
+					que en realidad existen entre las moléculas del gas, es decir que la fuerza intramolecuar es nula, por lo que para el estudio de su 
+					comportamiento empleamos la siguiente fórmula: 
+				</p>  
+				<p style="text-align:center"> 
+					<div style="overflow-x:auto">
+						\[P\cdot V=n\cdot R \cdot T\]
+				</div>
+					</p>
+					<p style="text-align: justify">
+						Donde: 
+						<ul>
+							<li><p>P es la presión</p></li>
+							<li><p>V es el volumen</p></li>
+							<li><p>n es el numero de moles</p></li>
+							<li><p>R es la constante de los gases</p></li>
+							<li><p>T es la temperatura</p></li>
+						</ul>
+					</p>   <br>
+					        
+			</article>
+			<article id="tab2" class="animated bounceInRight slow">
+				<h1>Ley de Boyle</h1>
+				<p style="text-align: justify">
+					Boyle insipirado por el trabajo del cientificio italiano Evangelista Torricelli realizo estudios estudios sobre el cambio de volumen de muestras gaseosas causados por variaciones de presión. De dnde pudo concluir que ya que los gases son fluidos compresibles su volumen y su presión están estrechamente relacionados.<br>Enunciado<br>"A temperatura constante, el volumen de una mezcla gaseosa es inversamente proporcional a la presión del gas", es decir:</p>	
+					<div class="imgcenter">
+                        <div class="wrap2">
                             <div class="tarjeta-wrap">
                                 <div class="tarjeta">
                                     <div class="adelante card0">
@@ -55,73 +70,95 @@
                                 </div>
                             </div>
                         </div>
+				</div>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+                        \[P\cdot V =k\]
                 </div>
-            <p style="text-align: center">
-                PV=k
-            </p>
-            <p>
-                <br>Donde k es una constante
-                <br>De donde:
-            </p>
-            <p  style="text-align: center">
-                (P1)(V1)=(P2)(V2)
-            </p>               
-            
-            <br><h2>Ley De Charles</h2>
-            <p style="text-align: justify">
-                En 1787 Jack Charles estudió la relación entre el volumen de una muestra gaseosa y su temperatura a presión constante, observó que al aumentarse la temperatura el volúmen tambiien aumentaba y que al enfriar el gas el volumen del mismo disminuia. <br>Enunciado<br>"A presión constante, el volumen de una muestra gaseosa es proporcional a la temperatura del gas, expresada en la escala absoluta o Kelvin", es decir:
-            </p>
-            <div class="imgcenter">
-                <div class="wrap">
-                    <div class="tarjeta-wrap">
-                        <div class="tarjeta">
-                            <div class="adelante card1">
-                            </div>   
-                            <div class="atras">
-                                <p>Su descubrimiento más importante fue en realidad un redescubrimiento. Repitió el trabajo de Amontons en 1787 y demostró que distintos gases se expandían análogamente, con un mismo incremento de temperatura. </p>
-                            </div>
-                        </div>
+				</p>
+				<p>
+					<br>Donde k es una constante
+					<br>De donde:
+				</p>
+				<p  style="text-align: center">
+					<div style="overflow-x:auto">
+                        \[P_{1} \cdot V_{1} = P_{2} \cdot V_{2}\]
                     </div>
+				</p>
+			</article>
+			<article id="tab3" class="animated bounceInRight slow">
+				<h1>Ley de Charles</h1>
+				<p style="text-align: justify">
+					En 1787 Jack Charles estudió la relación entre el volumen de una muestra gaseosa y su temperatura a presión constante, observó que al aumentarse la temperatura el volúmen tambiien aumentaba y que al enfriar el gas el volumen del mismo disminuia. <br>Enunciado<br>"A presión constante, el volumen de una muestra gaseosa es proporcional a la temperatura del gas, expresada en la escala absoluta o Kelvin", es decir:
+				</p>
+				<div class="imgcenter">
+					<div class="wrap2">
+						<div class="tarjeta-wrap">
+							<div class="tarjeta">
+								<div class="adelante card1">
+								</div>   
+								<div class="atras">
+									<p>Su descubrimiento más importante fue en realidad un redescubrimiento. Repitió el trabajo de Amontons en 1787 y demostró que distintos gases se expandían análogamente, con un mismo incremento de temperatura. </p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+                        \[V = k\cdot T\]
                 </div>
-            </div>
-            <p style="text-align: center">
-                V=(k)(T)
-            </p>
-            <p>Donde k es una constante<br>De donde:</p>
-            <p style="text-align: center">
-                    (V1)/(T1)=(V2)/(T2)
-            </p>
-            <br><h2>Ley De Gay Lussac</h2>
-            <p style="text-align: justify">
-                En 1802 Gay Lussac descubre que la presión de un gas es directamenete proporcional a su temperatura a volumen constante, de donde estableció la siguiente
-                fórmula:
-            </p>
-            <div class="imgcenter">
-                <div class="wrap">
-                    <div class="tarjeta-wrap">
-                        <div class="tarjeta">
-                            <div class="adelante card2">
-                            </div>   
-                            <div class="atras">
-                                <p>En 1811 dió forma a la ley que Charles había descubierto en 1787 sobre la relación entre el volumen y la temperatura, pero que había quedado sin publicar. Este mismo año, el químico francés Courtois, por medio de una reacción química produjo un gas de color violeta que Gay-Lussac identificó como un nuevo elemento y le dio el nombre de yodo, que en griego significa violeta.</p>
-                            </div>
-                        </div>
+				</p>
+				<p>Donde k es una constante<br>De donde:</p>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+                        \[\frac{V_{1}}{T_{1}} = \frac{V_{2}}{T_{2}}\]
                     </div>
-                </div>
-            </div>
-            <p style="text-align: center">
-                P=(k)(T)
-            </p>
-            <p>Donde k es una constante<br>A partir de esta fórmula obtenemos:</p>
-            <p style="text-align: center">(P1)/(T1)=(P2)/(T2)</p>
-            
-            <br><h2>Ley De Dalton</h2>
+				</p>
+
+			</article>
+			<article id="tab4" class="animated bounceInRight slow">
+				<h1>Ley de Gay Lussac</h1>
+				<p style="text-align: justify">
+					En 1802 Gay Lussac descubre que la presión de un gas es directamenete proporcional a su temperatura a volumen constante, de donde estableció la siguiente
+					fórmula:
+				</p>
+				<div class="imgcenter">
+					<div class="wrap2">
+						<div class="tarjeta-wrap">
+							<div class="tarjeta">
+								<div class="adelante card2">
+								</div>   
+								<div class="atras">
+									<p>En 1811 dió forma a la ley que Charles había descubierto en 1787 sobre la relación entre el volumen y la temperatura, pero que había quedado sin publicar. Este mismo año, el químico francés Courtois, por medio de una reacción química produjo un gas de color violeta que Gay-Lussac identificó como un nuevo elemento y le dio el nombre de yodo, que en griego significa violeta.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+						\[P = k\cdot T\]
+					</div>
+				</p>
+				<p>Donde k es una constante<br>A partir de esta fórmula obtenemos:</p>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+						\[\frac{P_{1}}{T_{1}} = \frac{P_{2}}{T_{2}}\]
+					</div>
+				</p>
+				
+			</article>
+
+
+			<article id="tab5" class="animated bounceInRight slow">
+				<h2>Ley De Dalton</h2>
             <p style="text-align: justify">
                 Formulada en 1802, donde Dalton estable que la presión total de una mezcla de gases es igual a la suma de las presiones que ajercen cada uno de los gases que
                 la componen, cada una de estas presiones se denomina como presión parcial, de donde obtenemos la siguiente fórmula matemática:  
             </p>
             <div class="imgcenter">
-                    <div class="wrap">
+                    <div class="wrap2">
                         <div class="tarjeta-wrap">
                             <div class="tarjeta">
                                 <div class="adelante card3">
@@ -134,13 +171,18 @@
                     </div>
             </div>
             <p style="text-align: center">
-                <p style="text-align: center">PT=(p1)+(p2)+(p3)+...+(pn)</p>
-                <p>Donde p1, p2, p3 hasta pn son las presiones parciales de cada uno de los gases que componen la mezcla.</p>
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+                        \[P_{t} = P_{1} + P_{2} + ... +P_{n}\]
+                    </div>
+				</p>
+                <p>Donde P<sub>1</sub>, P<sub>2</sub>, P<sub>3</sub> hasta P<sub>n</sub> son las presiones parciales de cada uno de los gases que componen la mezcla.</p>
             </p>
-            
-           <br><h2>Ley de los gases ideales</h2>
+		</article>
+				<article id="tab6" class="animated bounceInRight slow"> 
+					<h2>Ley de los gases ideales</h2>
            <div class="imgcenter">
-                <div class="wrap">
+                <div class="wrap2">
                     <div class="tarjeta-wrap">
                         <div class="tarjeta">
                             <div class="adelante card4">
@@ -160,15 +202,22 @@
                     <li><p>Los choques entre las moléculas del gas son elásticas por lo que no pierden energía cinética.</p></li>
                     <li><P>La atracción y repulsión entre las moléculas del gas es despreciable.</p></li>
                     <li><p>Los gases ideaes cumplen la siguiente ley:</p>
-                        <p style="text-align: center">(P)(V)=(n)(R)(T)</p></li>
+						<p style="text-align: center">
+							<div style="overflow-x:auto">
+                                \[P\cdot V=n\cdot R \cdot T\]
+                        	</div>
+						</p></li>
                     <li><p>Donde n son las moles del gas y R es la constante universal de los gases ideales.</p></li>
                 </ul>
-            <br><h2>Ley de Avogadro</h2>
+					</article>
+
+					<article id="tab7" class="animated bounceInRight slow">
+						<h2>Ley de Avogadro</h2>
             <p style="text-align: justify">
                 En 1811 Avogadro enuncia que el volumen de un gas es directamente proporcional a la cantidad de gas independiente del elemento que lo conforme. Obteniendo la siguiente expresión:<br>
             </p>
             <div class="imgcenter">
-                    <div class="wrap">
+                    <div class="wrap2">
                         <div class="tarjeta-wrap">
                             <div class="tarjeta">
                                 <div class="adelante card5">
@@ -179,44 +228,66 @@
                             </div>
                         </div>
                     </div>
-            </div>
-            <p style="text-align: center">
-                    <p style="text-align: center">(V1)/(n1)=(V2)/(n2)</p>
-                <p>Donde n representa a la cantidad de moles del gas.</p>
-            </p>
-            <br><h2>Ley General de los Gases</h2>
-            <p style="text-align: justify">
-                La ley General de los Gases consiste en la unión de las leyes vistas anteriormente (las leyes enunciadas por Boyle, Gay-Lussac y Charles), todas ellas se condensan en la siguiente fórmula:<br>
-            </p>
-            
-            <p style="text-align: center">(V1)(P1)/(T1)=(V2)(P2)/(T2)</p>
+			</div>
+			<p style="text-align: center">
+				<p style="text-align: center">
+					<div style="overflow-x:auto">
+						\[\frac{V_{1}}{n_{1}} = \frac{V_{2}}{n_{2}}\]
+					</div>
+				</p>
+			<p>Donde n representa a la cantidad de moles del gas.</p>
+		</p>
+					</article>
 
-            <br><h2>Ley de Graham</h2>
-            <p style="text-align: justify">
-                Las velocidades de efusión (salida a través de poros) y difusión (expansión hasta ocupar el volumen dle recipiente) de los gases son inversamente proporcionales a la raiz cuadrada de sus masas molares, obteniendo la siguiente expresión:<br>
-            </p>
-            <div class="imgcenter">
-                    <div class="wrap">
-                        <div class="tarjeta-wrap">
-                            <div class="tarjeta">
-                                <div class="adelante card6">
-                                </div>   
-                                <div class="atras">
-                                    <p>Graham demostró que la velocidad de difusión de un gas es inversamente proporcional a la raíz cuadrada de su densidad, relación conocida en la actualidad como ley de Graham. En el campo de la química de los coloides fue el primero en distinguir entre estos y los cristaloides. Descubrió el método de la diálisis para separar los coloides de una serie de soluciones. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-            </div>
-            <p style="text-align: center">    
-                    <p style="text-align: center">(V1)/(V2)=(M2)/(M1)</p>
-                <p style="text-align: justify">Donde V1, V1 son las masas de difusión / efusión del gas y M2, M1 son las masas molares.</p>
-            </p>
-            
-        </section>
+						<article id="tab8" class="animated bounceInRight slow">
 
-        </main>
-    
-    </body>
+							<h2>Ley General de los Gases</h2>
+							<p style="text-align: justify">
+								La ley General de los Gases consiste en la unión de las leyes vistas anteriormente (las leyes enunciadas por Boyle, Gay-Lussac y Charles), todas ellas se condensan en la siguiente fórmula:<br>
+							</p>
+							
+							<p style="text-align: center">
+								<div style="overflow-x:auto">
+									\[\frac{V_{1}\cdot P_{1}}{T_{1}} = \frac{V_{2}\cdot P_{2}}{T_{2}}\]
+								</div>
+							</p>
+				
+				
+							</article>
+
+
+							<article id="tab9" class="animated bounceInRight slow">
+									<h2>Ley de Graham</h2>
+									<p style="text-align: justify">
+										Las velocidades de efusión (salida a través de poros) y difusión (expansión hasta ocupar el volumen dle recipiente) de los gases son inversamente proporcionales a la raiz cuadrada de sus masas molares, obteniendo la siguiente expresión:<br>
+									</p>
+									<div class="imgcenter">
+											<div class="wrap2">
+												<div class="tarjeta-wrap">
+													<div class="tarjeta">
+														<div class="adelante card6">
+														</div>   
+														<div class="atras">
+															<p>Graham demostró que la velocidad de difusión de un gas es inversamente proporcional a la raíz cuadrada de su densidad, relación conocida en la actualidad como ley de Graham. En el campo de la química de los coloides fue el primero en distinguir entre estos y los cristaloides. Descubrió el método de la diálisis para separar los coloides de una serie de soluciones. </p>
+														</div>
+													</div>
+												</div>
+											</div>
+									</div>
+									<p style="text-align: center">    
+											<p style="text-align: center">
+												<div style="overflow-x:auto">
+													\[\frac{V_{1}}{V_{2}} = \frac{M_{1}}{M_{2}}\]
+												</div>
+											</p>
+										<p style="text-align: justify">
+											Donde V<sub>1</sub>, V<sub>2</sub> son las masas de difusión / efusión del gas y M<sub>1</sub>, M<sub>2</sub> son las masas molares.
+										</p>
+								</article>
+
+				
+			</article>
+		</div>
+	</div>
+</body>
 </html>
-
